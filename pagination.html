@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagination</title>
+</head>
+<style>
+    ul{
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+        height: 950px;
+    }
+    li{
+        margin: 10px;
+        color: white;
+        background-color: rgb(70, 111, 111);
+        padding: 10px;
+        border-radius: 15px;
+    }
+    .disabled:hover{
+        background-color: white;
+        color: black;
+        cursor: not-allowed;
+        border: none;
+    }
+</style>
+<body>
+    <ul>
+
+        <li><span>&laquo;</span></li>
+        <li><span>1</span></li>
+        <li><span>2</span></li>
+        <li class="disabled"><span>3</span></li>
+        <li><span>4</span></li>
+        <li><span>5</span></li>
+        <li><span>6</span></li>
+        <li><span>...</span></li>
+    </ul>
+</body>
+</html>
